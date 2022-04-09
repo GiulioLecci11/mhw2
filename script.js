@@ -13,7 +13,6 @@ function displayResult(){
             choice=selectedImages[2].dataset.choiceId;
         }
         else{
-            //fare caso in cui sono tutti e tre diversi e si sceglie la risposta con questionId="one"
            for(const img of selectedImages){
                 if(img.dataset.questionId=="one"){
                     choice= img.dataset.choiceId;
